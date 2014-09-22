@@ -1,8 +1,10 @@
 inherit kde4
 
-NAME="kdnssd"
-VERSION=4.11.5
+NAME="zeroconf-ioslave"
+VERSION=4.12.5
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE DNS-SD plugins"
 DESCRIPTION="Part of the KDE networking suite"
+
+OBSOLETES="kdnssd"
